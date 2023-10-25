@@ -1,7 +1,16 @@
 p.wrong{
-    color: red;
+    color: rgb(202, 26, 26);
 }
 
 p.good{
-    color: green;
+    color: rgb(9, 97, 9);
+}
+
+body{
+    background-color: rgb(206, 223, 231);
+}
+
+fieldset{
+    background-color: rgb(147, 185, 202);
+    border-radius: 30px;
 }

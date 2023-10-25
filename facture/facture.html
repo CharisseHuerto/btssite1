@@ -5,43 +5,67 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="facture.css" rel="stylesheet">
    <script src="facture.js"> </script>
-   <title></title>
+   <title> Facture </title>
 </head>
+
 <body>
       
-           <center ><h1> Facture en javascript </h1> </center>
-               <div>
-                   <input class="t" placeholder="Article" type="text" name="t1" id="t1" readonly>
-                   <input class="t" placeholder="Prix " type="text" name="t2" id="t2" readonly>
-                   <input class="t" placeholder="Quantité" type="text" name="t1" id="A">
-                   <input class="t34" placeholder="Résultat " type="text" name="t2" id="B">
-                   <br>
-                   <input class="t" placeholder="Entrer un article" type="number" name="t1" id="C">
-                   <input class="t" placeholder="entrer la valeur " type="number" name="t2" id="D">
-                   <input class="t" placeholder="entrer la quantité" type="number" name="t1" id="E">
-                   <input class="t34" placeholder="Résultat" type="text" name="t3" id="t3" readonly>
-                                       <br>
-                   <input class="t" placeholder="Entrer un article" type="number" name="t1" id="F">
-                   <input class="t" placeholder="entrer la valeur " type="number" name="t2" id="G">
-                   <input class="t" placeholder="entrer la quantité" type="number" name="t1" id="H">
-                   <input class="t34" placeholder="Résultat" type="text" name="t3" id="t45" readonly>
-                                       <br>
-                   <input class="t" placeholder="Entrer un article" type="text" name="t1" id="I">
-                   <input class="t" placeholder="entrer la valeur " type="number" name="t2" id="J">
-                   <input class="t" placeholder="entrer la quantité" type="number" name="t1" id="K">
-                   <input class="t34" placeholder="Résultat" type="text" name="t3" id="L" readonly>
-                                       <br>
-                   <input class="t" placeholder="" type="text" name="t1" id="t1" readonly>
-  
-  
-                   <a href="facture.html"> <input class="t" placeholder="Réinitialiser" type="reset" id="t2" name="t2"></a>
-    
-    
-                   <button onclick="Facture()" > Résultat </button>
+    <center> <h1> Facture en Javascript </h1> </center>
 
+            <hr> <br> <br>
 
-                   <input class="t5" placeholder="TOUT" type="number" name="t1" id="t5" >
+        <div>
+
+            <center> <table>
+
+                <tr>
+
+                    <td> Article :</td>
+                    <td> Prix : </td>
+                    <td> Quantité : </td>
+                    <td> Résultat </td>
+
+                </tr>
+                
+                <tr>
+
+                    <td> <input placeholder="Entrer un article" type="text" name="a1"> </td>
+                    <td> <input placeholder="Entrer la valeur" type="text" name="v1" id="A"> </td>
+                    <td> <input placeholder="Entrer la quantité" type="text" name="q1" id="B"> </td>
+                    <td> <input placeholder="0" type="text" name="r1" id="r1" readonly> </td>
+
+                </tr>
+                
+                <tr>
+
+                    <td> <input placeholder="Entrer un article" type="text" name="a2"> </td>
+                    <td> <input placeholder="Entrer la valeur" type="text" name="v2" id="C"> </td>
+                    <td> <input placeholder="Entrer la quantité" type="text" name="q1" id="D"> </td>
+                    <td> <input placeholder="0" type="text" name="r2" id="r2" readonly> </td>
+
+                </tr>
+                
+                <tr>
+
+                    <td> <input placeholder="Entrer un article" type="text" name="a3"> </td>
+                    <td> <input placeholder="Entrer la valeur" type="text" name="v2" id="E"> </td>
+                    <td> <input placeholder="Entrer la quantité" type="text" name="q1" id="F"> </td>
+                    <td> <input placeholder="0" type="text" name="r3" id="r3" readonly> </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> </td>
+                    <td> <button onclick="reinitialiser()"> Réinitialiser </button> </td>
+                    <td> <button onclick="facture()"> Résultat </button> </td>
+                    <td> <input placeholder="0" type="text" name="r4" id="r4" readonly>
+
+                </tr>
+
+            </table> </center>
               
-              
-              
-               </div>
+        </div>
+
+</body>
+</html>
