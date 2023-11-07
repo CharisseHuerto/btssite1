@@ -2,6 +2,9 @@ body{
     font-family: Verdana, Calibri, sans-serif;
     margin: 0px;
     padding: 0px;
+    background-image: url(img.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav > ul{
