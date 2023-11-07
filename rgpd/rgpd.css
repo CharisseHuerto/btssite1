@@ -26,5 +26,5 @@ img{
 .frame:hover{
     box-shadow: 0 0 10px rgb(0, 0, 0);
     background-color: #71b5bf;
-    transform: scale(1.6);
+    transform: scale(1.4);
     }
